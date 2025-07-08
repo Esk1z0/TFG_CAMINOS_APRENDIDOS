@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.6">
+  <diagram name="Page-1" id="b5b7bab2-c9e2-2cf4-8b2a-24fd1a2a6d21">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="byCp4l1KAL_3bHdN7eHx-1" value="Environment_Package" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="310" width="490" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="byCp4l1KAL_3bHdN7eHx-4" value="Models_Package" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="530" width="230" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="byCp4l1KAL_3bHdN7eHx-7" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="html=1;dropTarget=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="60" y="630" width="490" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="byCp4l1KAL_3bHdN7eHx-8" value="" style="shape=module;jettyWidth=8;jettyHeight=4;" vertex="1" parent="byCp4l1KAL_3bHdN7eHx-7">
+          <mxGeometry x="1" width="20" height="20" relative="1" as="geometry">
+            <mxPoint x="-27" y="7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="byCp4l1KAL_3bHdN7eHx-2" value="Env_Reward_Package" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="410" width="186" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="byCp4l1KAL_3bHdN7eHx-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.406;entryY=-0.03;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="byCp4l1KAL_3bHdN7eHx-1" target="byCp4l1KAL_3bHdN7eHx-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="70" y="430" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="byCp4l1KAL_3bHdN7eHx-3" value="Wrappers" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="420" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="byCp4l1KAL_3bHdN7eHx-5" value="Callbacks" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="625" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="byCp4l1KAL_3bHdN7eHx-9" value="Robot_Library" style="shape=module;align=left;spacingLeft=20;align=center;verticalAlign=top;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="122" y="700" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="byCp4l1KAL_3bHdN7eHx-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="byCp4l1KAL_3bHdN7eHx-10" target="byCp4l1KAL_3bHdN7eHx-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="byCp4l1KAL_3bHdN7eHx-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="byCp4l1KAL_3bHdN7eHx-10" target="byCp4l1KAL_3bHdN7eHx-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="705" y="510" />
+              <mxPoint x="705" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="byCp4l1KAL_3bHdN7eHx-10" value="run_simulation.py" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="650" y="405" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="byCp4l1KAL_3bHdN7eHx-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="byCp4l1KAL_3bHdN7eHx-20" target="byCp4l1KAL_3bHdN7eHx-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="343" y="730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="byCp4l1KAL_3bHdN7eHx-20" value="&lt;div&gt;&amp;lt;&amp;lt;Webots controller&amp;gt;&amp;gt;&lt;/div&gt;xyz_controller.py" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="353" y="705" width="135" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="PXm3TeBNBq-P09rX6nWm-1" value="&lt;div style=&quot;text-wrap-mode: wrap;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;«Estructura de Despliegue Webots»&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;b style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Simulation_Package&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;perimeterSpacing=2;" vertex="1" parent="1">
+          <mxGeometry x="200" y="640" width="220" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
