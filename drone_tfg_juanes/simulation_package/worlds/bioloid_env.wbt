@@ -1,0 +1,41 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/Floor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/robotis/bioloid/protos/BioloidDog.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.17543067395865958 0.26392338360515133 0.9484558641396122 1.2225770557246742
+  position -50.833834184310874 -52.02533072695612 1.0280769886711951
+  follow "BioloidDog"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+  size 200 200
+  appearance Parquetry {
+    type "light strip"
+  }
+}
+BioloidDog {
+  translation -50 -50 0.1
+  rotation 0 0 1 1
+  controller "xyz_controller"
+  supervisor TRUE
+  synchronization FALSE
+  extensionSlot [
+    Compass {
+      zAxis FALSE
+    }
+    Accelerometer {
+    }
+    InertialUnit {
+    }
+  ]
+}
